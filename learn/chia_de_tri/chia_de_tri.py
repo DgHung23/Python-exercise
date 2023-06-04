@@ -72,8 +72,6 @@ def Merse(b, c):
         i += 1
         k += 1
     return a
-
-
 # print(Merse(b, c))
 """===từ chương trình trên, sử dụng CHIA_ĐỂ_TRỊ để xây dựng hàm sắp xếp==="""
 
@@ -108,7 +106,6 @@ phân loại các dãy con liên túc trong A (chia)
 + nằm gọn trong B (1)
 + nằm gọn trong C (2)
 + không nằm gọn trong B,C (dãy con chứa phần tử mid)
-
 """
 
 n=str(input("PRESS ANY KEY TO CONTINUE: "))

@@ -68,6 +68,9 @@ print("thời gian chạy là: ", round(t2-t1, 8), "s")
 
 # ========================Hàm tính lũy thừa=====================
 
+a = int(input("nhập số: "))
+n = int(input("mũ: "))
+
 
 def exp(a, n):
     if n == 0:
@@ -78,17 +81,14 @@ def exp(a, n):
             return x*x
         else:
             return x*x*a
-
-
-a = int(input("nhập số: "))
-n = int(input("mũ: "))
-
+        
 
 def lt(a,n):
     lt=1
     for i in range(1,n):
         lt=lt*i
     return lt
+
 
 t1 = perf_counter()
 exp(a,n)
